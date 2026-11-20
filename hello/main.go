@@ -6,10 +6,10 @@ import (
 
 // uint 溢出示例
 func main() {
-	m :=make(map[string][int], 8)
+	m :=make(map[string]int, 8)
 	m["one"] = 1
 	m["two"] = 2
-	for _, v := range v {
-		fmt.Println(v)
+	for _, v := range m {
+		fmt.Printf(" %d\n",v)
 	}
 }
